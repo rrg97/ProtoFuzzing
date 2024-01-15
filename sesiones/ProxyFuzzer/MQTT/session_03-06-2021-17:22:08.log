@@ -1,0 +1,84 @@
+03-06-2021 17:22:08 root         INFO     Empezando la captura y modificación de paquetes ...
+03-06-2021 17:22:08 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:08 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[<\x12 [\xdfv\x11hP\x18\x0e\x10\x1a<\x00\x00\xa2\x02\x00\x00'
+03-06-2021 17:22:08 root         INFO     
+ Tipo de paquete: Unsubscribe
+03-06-2021 17:22:08 root         INFO     Realizando mutación sobre el paquete entero
+03-06-2021 17:22:08 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:08 root         INFO     Paquete mutado: b'\x0b\xb8\x07[<\x12 [\xdfv\x11hP\x18\x0e\x10)E\x00\x00\x80\xf3\xa0\x80\xb1\x00\xc0\x80'
+03-06-2021 17:22:08 root         INFO     Mandando paquete ...
+03-06-2021 17:22:11 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:11 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[=\x07 \x18\xe3\x14\x85\x9dP\x18\x0e\x107\x86\x00\x000\x1c\x00\x17office/room1/luminosity667'
+03-06-2021 17:22:11 root         INFO     
+ Tipo de paquete: Publish
+03-06-2021 17:22:11 root         INFO     Realizando mutación sobre fixed header
+03-06-2021 17:22:11 root         INFO     Paquete mutado: b'\x0b\xb8\x07[=\x07 \x18\xe3\x14\x85\x9dP\x18\x0e\x10<\x86\x00\x00+\x1c\x00\x17office/room1/luminosity667'
+03-06-2021 17:22:11 root         INFO     Mandando paquete ...
+03-06-2021 17:22:18 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:18 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[?\x1e \x01\xeb\x0f\x10\x94P\x18\x0e\x10:&\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote2'
+03-06-2021 17:22:18 root         INFO     
+ Tipo de paquete: Connect
+03-06-2021 17:22:18 root         INFO     Realizando mutación sobre el paquete entero
+03-06-2021 17:22:18 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:18 root         INFO     Paquete mutado: b'\x0b\xb8\x07[?\x1e \x01\xeb\x0f\x10\x94P\x18\x0e\x10lZ\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMot2'
+03-06-2021 17:22:18 root         INFO     Mandando paquete ...
+03-06-2021 17:22:23 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:23 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[?\x1e \x18\xeb\x0f\x10\x98P\x18\x0e\x10\x9fy\x00\x002\x1e\x00\x17office/room1/luminosity\x00\x00673'
+03-06-2021 17:22:23 root         INFO     
+ Tipo de paquete: Publish
+03-06-2021 17:22:23 root         INFO     Realizando mutación sobre el campo msgid
+03-06-2021 17:22:23 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:23 root         INFO     Paquete mutado: b'\x0b\xb8\x07[?\x1e \x18\xeb\x0f\x10\x98P\x18\x0e\x10\xe4\x08\x00\x002\x1e\x00\x17office/room1/luminosityp\xbb673'
+03-06-2021 17:22:23 root         INFO     Mandando paquete ...
+03-06-2021 17:22:23 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:23 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[?\x1e 8\xeb\x0f\x10\x9cP\x18\x0e\x10\x86l\x00\x00\x82\x1d\x00\x00\x00\x18office/room1/temperature\x02'
+03-06-2021 17:22:23 root         INFO     
+ Tipo de paquete: Subscribe
+03-06-2021 17:22:23 root         INFO     Realizando mutación sobre el paquete entero
+03-06-2021 17:22:23 root         INFO     Paquete mutado: b'\x0b\xb8\x07[?\x1e 8\xeb\x0f\x10\x9cP\x18\x0e\x10g\xe4\x00\x00\x82\x1d\x00\x00\x00\x18office\x82\x1d\x00\x00\x00\x18office/room1/temperatvrre\x02'
+03-06-2021 17:22:23 root         INFO     Mandando paquete ...
+03-06-2021 17:22:32 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:32 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[A\xf5\xa0\x18\xf5\xea\x1a<P\x18\x0e\x10\x05\x1e\x00\x004\x1e\x00\x17office/room1/luminosity\x00\x00688'
+03-06-2021 17:22:32 root         INFO     
+ Tipo de paquete: Publish
+03-06-2021 17:22:32 root         INFO     Realizando mutación sobre fixed header
+03-06-2021 17:22:32 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:32 root         INFO     Paquete mutado: b'\x0b\xb8\x07[A\xf5\xa0\x18\xf5\xea\x1a<P\x18\x0e\x10\xee\x1d\x00\x00K\x1e\x00\x17office/room1/luminosity\x00\x00688'
+03-06-2021 17:22:32 root         INFO     Mandando paquete ...
+03-06-2021 17:22:40 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:40 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[D\x0c\xa0\x18\xfd\xdd\xb5zP\x18\x0e\x10b\xe1\x00\x000\x1c\x00\x17office/room1/luminosity690'
+03-06-2021 17:22:40 root         INFO     
+ Tipo de paquete: Publish
+03-06-2021 17:22:40 root         INFO     Realizando mutación sobre el paquete entero
+03-06-2021 17:22:40 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:40 root         INFO     Paquete mutado: b'\x0b\xb8\x07[D\x0c\xa0\x18\xfd\xdd\xb5zP\x18\x0e\x10\xfa\xaa\x00\x000\x1c\x00\x17office/room-249/luminosity690'
+03-06-2021 17:22:40 root         INFO     Mandando paquete ...
+03-06-2021 17:22:50 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:50 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[F\x1c \x01\x08\x8dk\x06P\x18\x0e\x10\xbb8\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote2'
+03-06-2021 17:22:50 root         INFO     
+ Tipo de paquete: Connect
+03-06-2021 17:22:50 root         INFO     Realizando mutación sobre el campo protolevel
+03-06-2021 17:22:50 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:50 root         INFO     Paquete mutado: b'\x0b\xb8\x07[F\x1c \x01\x08\x8dk\x06P\x18\x0e\x10\xba8\x00\x00\x10\x15\x00\x04MQTT\x05\x02\x00\x1e\x00\tWaspMote2'
+03-06-2021 17:22:50 root         INFO     Mandando paquete ...
+03-06-2021 17:22:51 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+03-06-2021 17:22:51 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[/\xa6 [\xb0\r\x97\tP\x19\x0e\x10\xf0k\x00\x00\xa2\x02\x00\x00\xe0\x00'
+03-06-2021 17:22:51 root         INFO     
+ Tipo de paquete: Unsubscribe
+03-06-2021 17:22:51 root         INFO     Realizando mutación sobre el paquete entero
+03-06-2021 17:22:51 root         INFO     Paquete mutado: b'\x0b\xb8\x07[/\xa6 [\xb0\r\x97\tP\x19\x0e\x10\xf0l\x00\x00\xa2\x02\x00\x00\xe0'
+03-06-2021 17:22:51 root         INFO     Mandando paquete ...
+03-06-2021 17:22:53 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[G\xa7 \x01\x0b\x9f\xa5xP\x18\x0e\x10|)\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote2'
+03-06-2021 17:22:53 root         INFO     
+ Tipo de paquete: Connect
+03-06-2021 17:22:53 root         INFO     Realizando mutación sobre fixed header
+03-06-2021 17:22:53 root         INFO     Paquete mutado: b'\x0b\xb8\x07[G\xa7 \x01\x0b\x9f\xa5xP\x18\x0e\x10\xf1(\x00\x00\x9b\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote2'
+03-06-2021 17:22:53 root         INFO     Mandando paquete ...
+03-06-2021 17:22:54 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[D\x0c\xa0U\xfd\xdd\xb5zP\x19\x0e\x10\xef\xc9\x00\x00\xa2\x02\x00\x00\xe0\x00'
+03-06-2021 17:22:54 root         INFO     
+ Tipo de paquete: Unsubscribe
+03-06-2021 17:22:54 root         INFO     Realizando mutación sobre el paquete entero
+03-06-2021 17:22:54 root         INFO     Paquete mutado: b'\x0b\xb8\x07[D\x0c\xa0U\xfd\xdd\xb5zP\x19\x0e\x10\x91\xce\x00\x00\x00\x00\xe0\x00'
+03-06-2021 17:22:54 root         INFO     Mandando paquete ...
+03-06-2021 17:23:03 root         INFO     
+Tiempo total de ejecución: 00:00:55

@@ -1,0 +1,18 @@
+04-06-2021 17:07:28 root         INFO     Empezando la captura y modificación de paquetes ...
+04-06-2021 17:07:31 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:07:31 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x16\xdd 8g\xe0\x04[P\x18\x0e\x10\x048\x00\x00b\x02\x00\x00'
+04-06-2021 17:07:31 root         INFO     
+ Tipo de paquete: Pubrel
+04-06-2021 17:07:31 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:07:32 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:07:32 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x0c\xc9 W>\x9d\xb5\xacP\x19\x0e\x10f\x1a\x00\x00\xa2\x02\x00\x00\xe0\x00'
+04-06-2021 17:07:32 root         INFO     
+ Tipo de paquete: Unsubscribe
+04-06-2021 17:07:32 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:07:34 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:07:34 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x16\xdd 8g\xe0\x04[P\x18\x0e\x10\x048\x00\x00b\x02\x00\x00'
+04-06-2021 17:07:34 root         INFO     
+ Tipo de paquete: Pubrel
+04-06-2021 17:07:34 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:07:35 root         INFO     
+Tiempo total de ejecución: 00:00:06

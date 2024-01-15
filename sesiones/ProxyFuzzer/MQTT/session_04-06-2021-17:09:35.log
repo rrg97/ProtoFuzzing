@@ -1,0 +1,62 @@
+04-06-2021 17:09:35 root         INFO     Empezando la captura y modificación de paquetes ...
+04-06-2021 17:09:40 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:09:40 root         INFO     Paquete sin mutar: b'\x07[\x0b\xb8\xdf\xf9\x8a\xdb7\x14\xa08P\x18\xfa\xb9\x8a\xbc\x00\x00P\x02\x00\x00'
+04-06-2021 17:09:40 root         INFO     
+ Tipo de paquete: Pubrec
+04-06-2021 17:09:40 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:09:40 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:09:40 root         INFO     Paquete mutado: b'\x07[\x0b\xb8\xdf\xf9\x8a\xdb7\x14\xa08P\x18\xfa\xb9q\xb6\x00\x00Hola k ase'
+04-06-2021 17:09:40 root         INFO     Mandando paquete ...
+04-06-2021 17:09:40 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:09:40 root         INFO     Paquete sin mutar: b'\x07[\x0b\xb8\xdf\xf9\x8a\xdb7\x14\xa08P\x18\xfa\xb9\x8a\xbc\x00\x00P\x02\x00\x00'
+04-06-2021 17:09:40 root         INFO     
+ Tipo de paquete: Pubrec
+04-06-2021 17:09:40 root         INFO     Realizando mutación sobre el campo msgid
+04-06-2021 17:09:40 root         INFO     Paquete mutado: b'\x07[\x0b\xb8\xdf\xf9\x8a\xdb7\x14\xa08P\x18\xfa\xb9\x9f\x9e\x00\x00P\x02\xeb\x1d'
+04-06-2021 17:09:40 root         INFO     Mandando paquete ...
+04-06-2021 17:09:43 root         INFO     Paquete sin mutar: b'\x07[\x0b\xb8\xdf\xf9\x8a\xdb7\x14\xa08P\x18\xfa\xb9\x8a\xbc\x00\x00P\x02\x00\x00'
+04-06-2021 17:09:43 root         INFO     
+ Tipo de paquete: Pubrec
+04-06-2021 17:09:43 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:09:43 root         INFO     Paquete mutado: b'\x07[\x0b\xb8\xdf\xf9\x8a\xdb7\x14\xa08P\x18\xfa\xb9q\xb6\x00\x00Hola k ase'
+04-06-2021 17:09:43 root         INFO     Mandando paquete ...
+04-06-2021 17:09:54 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:09:54 root         INFO     Paquete sin mutar: b'\x07[\x0b\xb8\xef\x95b\x04:p\xa0\x18P\x18\xfa\xd9\xd0\x9b\x00\x00 \x02\x00\x00'
+04-06-2021 17:09:54 root         INFO     
+ Tipo de paquete: Connack
+04-06-2021 17:09:54 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:09:54 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:09:54 root         INFO     Paquete mutado: b'\x07[\x0b\xb8\xef\x95b\x04:p\xa0\x18P\x18\xfa\xd9\x05\x9b\x00\x00\xeb\x02\x00\x00'
+04-06-2021 17:09:54 root         INFO     Mandando paquete ...
+04-06-2021 17:09:56 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:09:56 root         INFO     Paquete sin mutar: b'\x07[\x0b\xb8\xef\x95b\x08:p\xa0UP\x18\xfa\x9c_\x95\x00\x00\x90\x03\x00\x00\x01'
+04-06-2021 17:09:56 root         INFO     
+ Tipo de paquete: Suback
+04-06-2021 17:09:56 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:09:56 root         INFO     Paquete mutado: b'\x07[\x0b\xb8\xef\x95b\x08:p\xa0UP\x18\xfa\x9c\x87\x91\x00\x00Hola k ase'
+04-06-2021 17:09:56 root         INFO     Mandando paquete ...
+04-06-2021 17:10:01 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:10:01 root         INFO     Paquete sin mutar: b'\x07[\x0b\xb8\xf5\xba\xa9\x1c<\r \x18P\x18\xfa\xd9\x01\xc2\x00\x00 \x02\x00\x00'
+04-06-2021 17:10:01 root         INFO     
+ Tipo de paquete: Connack
+04-06-2021 17:10:01 root         INFO     Realizando mutación sobre el campo retcode
+04-06-2021 17:10:01 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:10:01 root         INFO     Paquete mutado: b'\x07[\x0b\xb8\xf5\xba\xa9\x1c<\r \x18P\x18\xfa\xd9\x01\xbf\x00\x00 \x02\x00\x03'
+04-06-2021 17:10:01 root         INFO     Mandando paquete ...
+04-06-2021 17:10:03 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:10:03 root         INFO     Paquete sin mutar: b'\x07[\x0b\xb8\xf5\xba\xa9 <\r 8P\x18\xfa\xb9\xe1\xbd\x00\x00@\x02\x00\x00'
+04-06-2021 17:10:03 root         INFO     
+ Tipo de paquete: Puback
+04-06-2021 17:10:03 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:10:03 root         INFO     Paquete mutado: b'\x07[\x0b\xb8\xf5\xba\xa9 <\r 8P\x18\xfa\xb9\xb8\xb7\x00\x00Hola k ase'
+04-06-2021 17:10:03 root         INFO     Mandando paquete ...
+04-06-2021 17:10:06 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:10:06 root         INFO     Paquete sin mutar: b'\x07[\x0b\xb8\xf5\xba\xa9 <\r 8P\x18\xfa\xb9\xe1\xbd\x00\x00@\x02\x00\x00'
+04-06-2021 17:10:06 root         INFO     
+ Tipo de paquete: Puback
+04-06-2021 17:10:06 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:10:06 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:10:06 root         INFO     Paquete mutado: b'\x07[\x0b\xb8\xf5\xba\xa9 <\r 8P\x18\xfa\xb9\xe4\xbd\x00\x00=\x02\x00\x00'
+04-06-2021 17:10:06 root         INFO     Mandando paquete ...
+04-06-2021 17:10:13 root         INFO     
+Tiempo total de ejecución: 00:00:37

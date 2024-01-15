@@ -1,0 +1,28 @@
+1. Instalar python versión 3 -> sudo apt install python3
+(Normalmente viene ya instalado)
+
+2. Instalar git -> sudo apt install git
+
+3. Instalar pip3 -> sudo apt install python3-pip
+
+4. Instalar dependencias de la herramienta como superusuario ->
+
+    4.1. sudo su
+    4.2. python3 -r requirements.txt
+
+5. Instalar netfilterqueue como superusuario
+
+    5.1. apt install python3-pip git libnfnetlink-dev libnetfilter-queue-dev
+    5.2. pip3 install -U git+https://github.com/kti/python-netfilterqueue
+
+6. Instalar xterm como superusuario -> apt install xterm
+
+7. Instalar dsniff como superusuario -> apt install dsniff
+
+8. Instalar wmctrl si no está ya instalado -> apt install wmctrl
+
+9. Radamsa
+
+    9.1. cd radamsa
+    9.2. make
+    9.3. sudo make install

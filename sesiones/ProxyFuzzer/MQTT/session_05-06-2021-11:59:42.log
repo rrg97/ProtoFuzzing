@@ -1,0 +1,51 @@
+05-06-2021 11:59:42 root         INFO     Empezando la captura y modificación de paquetes ...
+05-06-2021 11:59:48 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 11:59:48 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x069\xc08\x8fg]IP\x18\x0e\x10\xf4e\x00\x00b\x02\x00\x00'
+05-06-2021 11:59:48 root         INFO     
+ Tipo de paquete: Pubrel
+05-06-2021 11:59:48 root         INFO     Realizando mutación sobre el paquete entero
+05-06-2021 11:59:48 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 11:59:48 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x069\xc08\x8fg]IP\x18\x0e\x10#F\x00\x00b\\x257\\x00\\x00\n'
+05-06-2021 11:59:48 root         INFO     Mandando paquete ...
+05-06-2021 12:00:05 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:05 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\nX\xc06\x9f\x15|zP\x18\x0e\x10\xfdO\x00\x00\x82\x1d\x00\x00\x00\x18office/room1/temperature\x00'
+05-06-2021 12:00:05 root         INFO     
+ Tipo de paquete: Subscribe
+05-06-2021 12:00:05 root         INFO     Realizando mutación sobre fixed header
+05-06-2021 12:00:05 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:05 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\nX\xc06\x9f\x15|zP\x18\x0e\x10\xe6O\x00\x00\x99\x1d\x00\x00\x00\x18office/room1/temperature\x00'
+05-06-2021 12:00:05 root         INFO     Mandando paquete ...
+05-06-2021 12:00:17 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:17 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x0ek@\x01\xab\xbf\x8dtP\x18\x0e\x10\rI\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote2'
+05-06-2021 12:00:17 root         INFO     
+ Tipo de paquete: Connect
+05-06-2021 12:00:17 root         INFO     Realizando mutación sobre el paquete entero
+05-06-2021 12:00:17 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:17 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x0ek@\x01\xab\xbf\x8dtP\x18\x0e\x10U\xbf\x00\x00\\x10\\x15\\x00\\x04MQTT\\x2559111406403\\x02\\x00\\x1e\\x00\tWaspMote2\n'
+05-06-2021 12:00:17 root         INFO     Mandando paquete ...
+05-06-2021 12:00:30 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:30 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x11\xab\xc0\x01\xb8\x0c\xc6PP\x18\x0e\x10D\xdf\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote2'
+05-06-2021 12:00:30 root         INFO     
+ Tipo de paquete: Connect
+05-06-2021 12:00:30 root         INFO     Realizando mutación sobre fixed header
+05-06-2021 12:00:30 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:30 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x11\xab\xc0\x01\xb8\x0c\xc6PP\x18\x0e\x10\xe9\xde\x00\x00k\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote2'
+05-06-2021 12:00:30 root         INFO     Mandando paquete ...
+05-06-2021 12:00:49 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:49 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x14\xf1@\x18\xc7\xcd"\xacP\x18\x0e\x10\xbe\xda\x00\x000\x1c\x00\x17office/room1/luminosity750'
+05-06-2021 12:00:49 root         INFO     
+ Tipo de paquete: Publish
+05-06-2021 12:00:49 root         INFO     Realizando mutación sobre el paquete entero
+05-06-2021 12:00:49 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:49 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x14\xf1@\x18\xc7\xcd"\xacP\x18\x0e\x10\x80V\x00\x000\\x1c\\x00\\x17office/room3/luminosity655\n'
+05-06-2021 12:00:49 root         INFO     Mandando paquete ...
+05-06-2021 12:00:59 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:59 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x14\xf1@Y\xc7\xcd"\xacP\x19\x0e\x10\xe9\xc6\x00\x00\xe0\x00'
+05-06-2021 12:00:59 root         INFO     
+ Tipo de paquete: Disconnect
+05-06-2021 12:00:59 root         INFO     Realizando mutación sobre fixed header
+05-06-2021 12:00:59 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+05-06-2021 12:00:59 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x14\xf1@Y\xc7\xcd"\xacP\x19\x0e\x10L\xc7\x00\x00}\x00'
+05-06-2021 12:00:59 root         INFO     Mandando paquete ...
+05-06-2021 12:01:11 root         INFO     
+Tiempo total de ejecución: 00:01:28

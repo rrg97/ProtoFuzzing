@@ -1,0 +1,265 @@
+04-06-2021 17:30:12 root         INFO     Empezando la captura y modificación de paquetes ...
+04-06-2021 17:42:02 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:02 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x04^\xc0\x01\xf2\xbc\x1e7P\x18\x0e\x10\xa8\x88\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity971\xe0\x00'
+04-06-2021 17:42:02 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:42:02 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:42:02 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:02 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x04^\xc0\x01\xf2\xbc\x1e7P\x18\x0e\x10\x97\xec\x00\x00\\x10\\x15\\h00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1c\\x00\\x17office/room1/luminosity971\\xe0\\x00\n\\x10\\x15\\h00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1c\\x00\\x17office/room1/luminosity971\\xe0\\x00\n\\x10\\x15\\h00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1c\\x00\\x17office/room1/luminosity971\\xe0\\x00\n'
+04-06-2021 17:42:02 root         INFO     Mandando paquete ...
+04-06-2021 17:42:14 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:14 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x07m@\x01\xfej\x1b\xb2P\x18\x0e\x10\x14S\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity959\xe0\x00'
+04-06-2021 17:42:14 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:42:14 root         INFO     Realizando mutación sobre el campo protolevel
+04-06-2021 17:42:14 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:14 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x07m@\x01\xfej\x1b\xb2P\x18\x0e\x10\x15S\x00\x00\x10\x15\x00\x04MQTT\x03\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity959\xe0\x00'
+04-06-2021 17:42:14 root         INFO     Mandando paquete ...
+04-06-2021 17:42:18 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:18 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x082\xc0\x01\x01V\xb8\x16P\x18\x0e\x10\xf7:\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity887\xe0\x00'
+04-06-2021 17:42:18 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:42:18 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:42:18 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x082\xc0\x01\x01V\xb8\x16P\x18\x0e\x10\x0e\x18\x00\x00\\x10\\x15\\x00\\x04MQTT\\x4294967291\\x02\\x00\\x1e\\x00\tWaspMote129\\x1c\\x00\\x255off)ce/room1/luminosity887\\xe0\\x65535\n'
+04-06-2021 17:42:18 root         INFO     Mandando paquete ...
+04-06-2021 17:42:21 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:21 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x08\xf5\xc0\x01\x04A\x89%P\x18\x0e\x10&~\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity883\xe0\x00'
+04-06-2021 17:42:21 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:42:21 root         INFO     Realizando mutación sobre el campo usernameflag
+04-06-2021 17:42:21 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:21 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x08\xf5\xc0\x01\x04A\x89%P\x18\x0e\x10%\xfc\x00\x00\x10\x15\x00\x04MQTT\x04\x82\x00\x1e\x00\tWaspMote2\x00\x000\x1c\x00\x17office/room1/luminosity883\xe0\x00'
+04-06-2021 17:42:21 root         INFO     Mandando paquete ...
+04-06-2021 17:42:49 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:49 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x0e\xf2@\x01\x1d\xe9\xf5>P\x18\x0e\x10Ap\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1036\xe0\x00'
+04-06-2021 17:42:49 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:42:49 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:42:49 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:49 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x0e\xf2@\x01\x1d\xe9\xf5>P\x18\x0e\x10\x97m\x00\x00\\x9223372036854775797\\x15\\x00\\x0MQTT\\x04\\x02\\x00\\x429503\xf3\xa0\x81\x862834e\\x00\tWaspMote20\\x126d\\x00\\x65519office/room1\xe2\x81\xa6/luminosity1036\\xe9223372032834e20\\x1d\\x00\\x65519office/room1\xe2\x81\xa6/luminosity1036\\xe9223372036854775809\\x00\n'
+04-06-2021 17:42:49 root         INFO     Mandando paquete ...
+04-06-2021 17:42:52 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:52 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x0e\xf2@\x01\x1d\xe9\xf5>P\x19\x0e\x10Ao\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1036\xe0\x00'
+04-06-2021 17:42:52 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:42:52 root         INFO     Realizando mutación sobre el campo passwordflag
+04-06-2021 17:42:52 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x0e\xf2@\x01\x1d\xe9\xf5>P\x19\x0e\x10A-\x00\x00\x10\x15\x00\x04MQTT\x04B\x00\x1e\x00\tWaspMote2\x00\x000\x1d\x00\x17office/room1/luminosity1036\xe0\x00'
+04-06-2021 17:42:52 root         INFO     Mandando paquete ...
+04-06-2021 17:42:55 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:55 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x10\xac\xc0\x01$\x80\x14\x99P\x18\x0e\x10\x9a\xc1\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1029\xe0\x00'
+04-06-2021 17:42:55 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:42:55 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:42:55 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:42:55 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x10\xac\xc0\x01$\x80\x14\x99P\x18\x0e\x10\x8dF\x00\x00\\x10\\x15\\x00\\x04MQTT\\x239073390\\x02\\x00\\x1e\\x00\tWas101\\x17office/room1/luminosity170141183460469231731687303715884104698\\xe0\\x0\n'
+04-06-2021 17:42:55 root         INFO     Mandando paquete ...
+04-06-2021 17:43:04 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:04 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x13\xa4\xc0\x01-\x05M\x8fP\x18\x0e\x10VR\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1025\xe0\x00'
+04-06-2021 17:43:04 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:43:04 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:43:04 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:04 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x13\xa4\xc0\x01-\x05M\x8fP\x18\x0e\x10\xe9Q\x00\x00}\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1025\xe0\x00'
+04-06-2021 17:43:04 root         INFO     Mandando paquete ...
+04-06-2021 17:43:14 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:14 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x15\xe6@\x015\x9a\xb6lP\x18\x0e\x10a\xa2\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1031\xe0\x00'
+04-06-2021 17:43:14 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:43:14 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:43:14 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:14 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x15\xe6@\x015\x9a\xb6lP\x18\x0e\x1030\x00\x00\\x10\\x15\\x18446744073709551615\\\xac04MQTT\\x04\\x02\\x00\\x1826e\\\xee00\tWaspM\xe2\x81\xa8ote20\\x1d\\x00\\x17office/room1/luminosity1031\\xe0\\x00\n'
+04-06-2021 17:43:14 root         INFO     Mandando paquete ...
+04-06-2021 17:43:17 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:17 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x16\xa9@\x018\x87\xf6\xb1P\x18\x0e\x10\x1f\xa7\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1017\xe0\x00'
+04-06-2021 17:43:17 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:43:17 root         INFO     Realizando mutación sobre el campo willQOSflag
+04-06-2021 17:43:17 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x16\xa9@\x018\x87\xf6\xb1P\x18\x0e\x10\x1f\x97\x00\x00\x10\x15\x00\x04MQTT\x04\x12\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1017\xe0\x00'
+04-06-2021 17:43:17 root         INFO     Mandando paquete ...
+04-06-2021 17:43:35 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:35 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x18\xf7@\x01I\xca\xfd%P\x18\x0e\x10\x04\xa6\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1023\xe0\x00'
+04-06-2021 17:43:35 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:43:35 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:43:35 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:35 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x18\xf7@\x01I\xca\xfd%P\x18\x0e\x10\x85"\x00\x00\\x4294967295\\x15\\x00\\x04MQTT\\x1\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1023\\xe0\\x00\n'
+04-06-2021 17:43:35 root         INFO     Mandando paquete ...
+04-06-2021 17:43:38 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:38 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x1b\xef@\x01L\xa2J\xbeP\x18\x0e\x10\xb1;\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1025\xe0\x00'
+04-06-2021 17:43:38 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:43:38 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:43:38 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x1b\xef@\x01L\xa2J\xbeP\x18\x0e\x10V;\x00\x00k\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1025\xe0\x00'
+04-06-2021 17:43:38 root         INFO     Mandando paquete ...
+04-06-2021 17:43:51 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:51 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x1f\x00@\x01XS"\xceP\x18\x0e\x10\xcbh\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1016\xe0\x00'
+04-06-2021 17:43:51 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:43:51 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:43:51 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:43:51 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x1f\x00@\x01XS"\xceP\x18\x0e\x10\xfb\x95\x00\x00\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1016\\xe0\\x00\n'
+04-06-2021 17:43:51 root         INFO     Mandando paquete ...
+04-06-2021 17:44:00 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:00 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[!K\xc0\x01a\x18\xb5\x8aP\x18\x0e\x10\xae\x9d\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1004\xe0\x00'
+04-06-2021 17:44:00 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:44:00 root         INFO     Realizando mutación sobre el campo cleansess
+04-06-2021 17:44:00 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:00 root         INFO     Paquete mutado: b'\x0b\xb8\x07[!K\xc0\x01a\x18\xb5\x8aP\x18\x0e\x10\xae\x9f\x00\x00\x10\x15\x00\x04MQTT\x04\x00\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1004\xe0\x00'
+04-06-2021 17:44:00 root         INFO     Mandando paquete ...
+04-06-2021 17:44:04 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:04 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07["\x0e\xc0\x01d\x05tyP\x18\x0e\x10\xeb\xf9\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1009\xe0\x00'
+04-06-2021 17:44:04 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:44:04 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:44:04 root         INFO     Paquete mutado: b'\x0b\xb8\x07["\x0e\xc0\x01d\x05tyP\x18\x0e\x10\xfb\x9c\x00\x00\\x10\\x15\\x00\\x04MQTT\\x04\xf3\xa0\x81\xbd\\x02\\x00\\x1e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1009\\xe0\\x00\n'
+04-06-2021 17:44:04 root         INFO     Mandando paquete ...
+04-06-2021 17:44:10 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:10 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[#\x9b\x00\x01i\xf7\xc6\x99P\x18\x0e\x10&\xaf\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity974\xe0\x00'
+04-06-2021 17:44:10 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:44:10 root         INFO     Realizando mutación sobre el campo protoname
+04-06-2021 17:44:10 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:10 root         INFO     Paquete mutado: b'\x0b\xb8\x07[#\x9b\x00\x01i\xf7\xc6\x99P\x18\x0e\x10)\xb3\x00\x00\x10\x15\x00\x04MMQT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity974\xe0\x00'
+04-06-2021 17:44:10 root         INFO     Mandando paquete ...
+04-06-2021 17:44:16 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:16 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[%&\xa0\x01o\xc9\xfc\nP\x18\x0e\x10E\xde\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity998\xe0\x00'
+04-06-2021 17:44:16 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:44:16 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:44:16 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:16 root         INFO     Paquete mutado: b'\x0b\xb8\x07[%&\xa0\x01o\xc9\xfc\nP\x18\x0e\x10\xdb\t\x00\x00\\x10\\x15\\x00\\x0MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x0c\\x00\\x17office/room1/luminosity998\\xe0\\x00\n'
+04-06-2021 17:44:16 root         INFO     Mandando paquete ...
+04-06-2021 17:44:48 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:48 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[,\xfa`\x01\x8d\xab=\x1eP\x18\x0e\x10N\xcb\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1001\xe0\x00'
+04-06-2021 17:44:48 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:44:48 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:44:48 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:48 root         INFO     Paquete mutado: b'\x0b\xb8\x07[,\xfa`\x01\x8d\xab=\x1eP\x18\x0e\x10\x83\xca\x00\x00\xdb\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1001\xe0\x00'
+04-06-2021 17:44:48 root         INFO     Mandando paquete ...
+04-06-2021 17:44:51 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:44:51 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[-\xbd`\x01\x90\x95+\x06P\x18\x0e\x10]5\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1002\xe0\x00'
+04-06-2021 17:44:51 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:44:51 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:44:51 root         INFO     Paquete mutado: b'\x0b\xb8\x07[-\xbd`\x01\x90\x95+\x06P\x18\x0e\x10#Z\x00\x00\\x10\\x15\\x00\\x04MQTT\\x00\\x157426714926480481127736409619e\\x00\tWaspMote20\\x1d\\x00\\x17office/room1/luminosity1002\\xe0\\x00\n'
+04-06-2021 17:44:51 root         INFO     Mandando paquete ...
+04-06-2021 17:45:04 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:04 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[0\xca\x00\x01\x9c9A\xf6P\x18\x0e\x10k\xdf\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity994\xe0\x00'
+04-06-2021 17:45:04 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:45:04 root         INFO     Realizando mutación sobre el campo klive
+04-06-2021 17:45:04 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:04 root         INFO     Paquete mutado: b'\x0b\xb8\x07[0\xca\x00\x01\x9c9A\xf6P\x18\x0e\x10\xcd<\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x9e\xc0\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity994\xe0\x00'
+04-06-2021 17:45:04 root         INFO     Mandando paquete ...
+04-06-2021 17:45:17 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:17 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[3\xe3\xc0\x01\xa8\tXGP\x18\x0e\x10\x8a\xa4\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity990\xe0\x00'
+04-06-2021 17:45:17 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:45:17 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:45:17 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:17 root         INFO     Paquete mutado: b'\x0b\xb8\x07[3\xe3\xc0\x01\xa8\tXGP\x18\x0e\x10\x1a\xe6\x00\x00\\x10\\x\xef\xbf\xbf15\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1c\\x00\\x17office/room1/l}minosity990\\xe0\\x00\n'
+04-06-2021 17:45:17 root         INFO     Mandando paquete ...
+04-06-2021 17:45:23 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:23 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[5l@\x01\xad\xe0\xcbpP\x18\x0e\x10\x8e\x1c\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity982\xe0\x00'
+04-06-2021 17:45:23 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:45:23 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:45:23 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:23 root         INFO     Paquete mutado: b'\x0b\xb8\x07[5l@\x01\xad\xe0\xcbpP\x18\x0e\x10a\x1c\x00\x00=\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity982\xe0\x00'
+04-06-2021 17:45:23 root         INFO     Mandando paquete ...
+04-06-2021 17:45:26 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:26 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[6/@\x01\xb0\xcc\xc0\x9eP\x18\x0e\x10\x94?\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity983\xe0\x00'
+04-06-2021 17:45:26 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:45:26 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:45:26 root         INFO     Paquete mutado: b'\x0b\xb8\x07[6/@\x01\xb0\xcc\xc0\x9eP\x18\x0e\x10Z\xb9\x00\x00\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x$&NaN$(xcalc)%p\\x00\'xcalc$PATH00\\x1e\\x00\tWaspMote20\\x1c\\x00\\x15\\x00\\x04MQTT\\x04\\x02\\x$&NaN$(xcalc)%p\\x00\'xcalc$PATH00\\x1e\\x00\tWaspMote20\\x1c\\x00\\x17office/room1/luminosity\\u0000aaaa%d%n$`"xcalc%n%n983\\xe0\\x00\n'
+04-06-2021 17:45:26 root         INFO     Mandando paquete ...
+04-06-2021 17:45:42 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:42 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[:\n\xc0\x01\xbf\x7f\x94GP\x18\x0e\x100\x0b\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity951\xe0\x00'
+04-06-2021 17:45:42 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:45:42 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:45:42 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:42 root         INFO     Paquete mutado: b'\x0b\xb8\x07[:\n\xc0\x01\xbf\x7f\x94GP\x18\x0e\x10\xd5\n\x00\x00k\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity951\xe0\x00'
+04-06-2021 17:45:42 root         INFO     Mandando paquete ...
+04-06-2021 17:45:51 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:51 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[;\x93@\x01\xc8->WP\x18\x0e\x10\xfc\xc7\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity920\xe0\x00'
+04-06-2021 17:45:51 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:45:51 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:45:51 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:51 root         INFO     Paquete mutado: b'\x0b\xb8\x07[;\x93@\x01\xc8->WP\x18\x0e\x10k\x90\x00\x00\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote20\\x1c\\x00\\x\\x00\n'
+04-06-2021 17:45:51 root         INFO     Mandando paquete ...
+04-06-2021 17:45:57 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:57 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[=\x0f@\x01\xcd\xd6\xf5\xb7P\x18\x0e\x10;?\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity953\xe0\x00'
+04-06-2021 17:45:57 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:45:57 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:45:57 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:45:57 root         INFO     Paquete mutado: b'\x0b\xb8\x07[=\x0f@\x01\xcd\xd6\xf5\xb7P\x18\x0e\x10\xfe>\x00\x00M\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity953\xe0\x00'
+04-06-2021 17:45:57 root         INFO     Mandando paquete ...
+04-06-2021 17:46:00 scapy.runtime WARNING  more Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:00 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[\x0e\xf2@\x01\x1d\xe9\xf5>P\x19\x0e\x10Ao\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1d\x00\x17office/room1/luminosity1036\xe0\x00'
+04-06-2021 17:46:00 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:46:00 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:46:00 root         INFO     Paquete mutado: b'\x0b\xb8\x07[\x0e\xf2@\x01\x1d\xe9\xf5>P\x19\x0e\x10\x81R\x00\x00\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x00\tWaspMote2147483649\\x32768d\\x00\\x17office/room1/luminosity0\\xe256\\x00\n'
+04-06-2021 17:46:00 root         INFO     Mandando paquete ...
+04-06-2021 17:46:00 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[>\x8b@\x01\xd0\xad{\x96P\x18\x0e\x10\xae\x0f\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity936\xe0\x00'
+04-06-2021 17:46:00 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:46:00 root         INFO     Realizando mutación sobre el campo protolevel
+04-06-2021 17:46:00 root         INFO     Paquete mutado: b'\x0b\xb8\x07[>\x8b@\x01\xd0\xad{\x96P\x18\x0e\x10\xaf\x0f\x00\x00\x10\x15\x00\x04MQTT\x03\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity936\xe0\x00'
+04-06-2021 17:46:00 root         INFO     Mandando paquete ...
+04-06-2021 17:46:03 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:03 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[?N@\x01\xd3\x99\xdaaP\x18\x0e\x10L\x98\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity905\xe0\x00'
+04-06-2021 17:46:03 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:46:03 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:46:03 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:03 root         INFO     Paquete mutado: b'\x0b\xb8\x07[?N@\x01\xd3\x99\xdaaP\x18\x0e\x10\xb4\xfd\x00\x00\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x00\\x1\xf3\xa0\x80\xa3e\\x00\tWaspMote20\\x1c\\x00\\x17office/room1/luminosity905\\xe0\\x00\n'
+04-06-2021 17:46:03 root         INFO     Mandando paquete ...
+04-06-2021 17:46:10 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:10 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[@\xd6\xc0\x01\xd9r\xf8\xecP\x18\x0e\x10\xab\xa5\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity960\xe0\x00'
+04-06-2021 17:46:10 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:46:10 root         INFO     Realizando mutación sobre el campo usernameflag
+04-06-2021 17:46:10 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:10 root         INFO     Paquete mutado: b'\x0b\xb8\x07[@\xd6\xc0\x01\xd9r\xf8\xecP\x18\x0e\x10\xab#\x00\x00\x10\x15\x00\x04MQTT\x04\x82\x00\x1e\x00\tWaspMote2\x00\x000\x1c\x00\x17office/room1/luminosity960\xe0\x00'
+04-06-2021 17:46:10 root         INFO     Mandando paquete ...
+04-06-2021 17:46:16 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:16 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[B_@\x01\xdfJN\xebP\x18\x0e\x10\xc8G\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity956\xe0\x00'
+04-06-2021 17:46:16 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:46:16 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:46:16 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:16 root         INFO     Paquete mutado: b'\x0b\xb8\x07[B_@\x01\xdfJN\xebP\x18\x0e\x10<:\x00\x00\\x10\\x1051908403893\\x00\\x04MQTT\\x04\\x02\\x00\\x1e\\x18446744073709551616\tWaspMote20\\x65536c\\x00\\x17office/room1/luminosity956\\xe-1\\x00\n'
+04-06-2021 17:46:16 root         INFO     Mandando paquete ...
+04-06-2021 17:46:22 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:22 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[C"@\x01\xe5\x03\xe4\x85P\x18\x0e\x10)0\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity969\xe0\x00'
+04-06-2021 17:46:22 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:46:22 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:46:22 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:22 root         INFO     Paquete mutado: b'\x0b\xb8\x07[C"@\x01\xe5\x03\xe4\x85P\x18\x0e\x10\xcc/\x00\x00m\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity969\xe0\x00'
+04-06-2021 17:46:22 root         INFO     Mandando paquete ...
+04-06-2021 17:46:28 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:28 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[D\x9e@\x01\xea\xaeO\xc2P\x18\x0e\x10\xba\xcd\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity955\xe0\x00'
+04-06-2021 17:46:28 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:46:28 root         INFO     Realizando mutación sobre el paquete entero
+04-06-2021 17:46:28 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:28 root         INFO     Paquete mutado: b'\x0b\xb8\x07[D\x9e@\x01\xea\xaeO\xc2P\x18\x0e\x10\xcf\x0e\x00\x00\\x10\\x15\\x00\\x04MQTT\\x04\\x02\\x-7912569\tWaspMote20\\x1c\\x00\\x17o\xe2\x80\x83ffice/room1/lumino\\x1c\\x00\\x17o\xe2\x80\x83ffice/room258/luminosity955\\xe0\\x00\n'
+04-06-2021 17:46:28 root         INFO     Mandando paquete ...
+04-06-2021 17:46:40 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:40 root         INFO     Paquete sin mutar: b'\x0b\xb8\x07[G\xa2\xc0\x01\xf61B\xe9P\x18\x0e\x10=\x1d\x00\x00\x10\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity971\xe0\x00'
+04-06-2021 17:46:40 root         INFO     
+ Tipo de paquete: Connect
+04-06-2021 17:46:40 root         INFO     Realizando mutación sobre fixed header
+04-06-2021 17:46:40 scapy.runtime WARNING  Calling str(pkt) on Python 3 makes no sense!
+04-06-2021 17:46:40 root         INFO     Paquete mutado: b'\x0b\xb8\x07[G\xa2\xc0\x01\xf61B\xe9P\x18\x0e\x10b\x1c\x00\x00\xeb\x15\x00\x04MQTT\x04\x02\x00\x1e\x00\tWaspMote20\x1c\x00\x17office/room1/luminosity971\xe0\x00'
+04-06-2021 17:46:40 root         INFO     Mandando paquete ...
+04-06-2021 17:50:26 root         INFO     
+Tiempo total de ejecución: 00:20:13
